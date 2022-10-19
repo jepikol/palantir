@@ -70,37 +70,37 @@ void loop() {
 
     switch (color1) {
       case 0:
-        digitalWrite(green, LOW); // turn red
+        digitalWrite(green, LOW); // red 
         digitalWrite(blue, LOW);
         digitalWrite(red, HIGH);
         break;
 
       case 1:
-        digitalWrite(green, HIGH); // turn the LED off by making the voltage LOW
+        digitalWrite(green, HIGH); // yellow 
         digitalWrite(blue, LOW);
         digitalWrite(red, HIGH);
         break;
 
       case 2:
-        digitalWrite(green, HIGH); // turn the LED off by making the voltage LOW
+        digitalWrite(green, HIGH); // green
         digitalWrite(blue, LOW);
         digitalWrite(red, LOW);
         break;
 
       case 3:
-        digitalWrite(green, HIGH); // turn the LED off by making the voltage LOW
+        digitalWrite(green, HIGH); // turquoise
         digitalWrite(blue, HIGH);
         digitalWrite(red, LOW);
         break;
 
       case 4:
-        digitalWrite(green, LOW); // turn the LED off by making the voltage LOW
+        digitalWrite(green, LOW); // blue
         digitalWrite(blue, HIGH);
         digitalWrite(red, LOW);
         break; // wait for a second
 
       case 5:
-        digitalWrite(green, LOW); // turn the LED off by making the voltage LOW
+        digitalWrite(green, LOW); // purle
         digitalWrite(blue, HIGH);
         digitalWrite(red, HIGH);
         break;
@@ -131,37 +131,37 @@ void onColor2Change()  {
 
     switch (color2) {
       case 0:
-        digitalWrite(green, LOW); // turn red
+        digitalWrite(green, LOW); // red
         digitalWrite(blue, LOW);
         digitalWrite(red, HIGH);
         break;
 
       case 1:
-        digitalWrite(green, HIGH); // turn the LED off by making the voltage LOW
+        digitalWrite(green, HIGH); // yellow
         digitalWrite(blue, LOW);
         digitalWrite(red, HIGH);
         break;
 
       case 2:
-        digitalWrite(green, HIGH); // turn the LED off by making the voltage LOW
+        digitalWrite(green, HIGH); // green
         digitalWrite(blue, LOW);
         digitalWrite(red, LOW);
         break;
 
       case 3:
-        digitalWrite(green, HIGH); // turn the LED off by making the voltage LOW
+        digitalWrite(green, HIGH); // turquoise
         digitalWrite(blue, HIGH);
         digitalWrite(red, LOW);
         break;
 
       case 4:
-        digitalWrite(green, LOW); // turn the LED off by making the voltage LOW
+        digitalWrite(green, LOW); // blue
         digitalWrite(blue, HIGH);
         digitalWrite(red, LOW);
         break;
 
       case 5:
-        digitalWrite(green, LOW); // turn the LED off by making the voltage LOW
+        digitalWrite(green, LOW); // purple
         digitalWrite(blue, HIGH);
         digitalWrite(red, HIGH);
         break;
